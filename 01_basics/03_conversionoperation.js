@@ -19,3 +19,9 @@ console.log(booleanIsLoggedIn);
 // 1 -> true
 // "" -> false
 //  "xyz" -> true
+
+let someNumber = 67
+
+let stringNumber = String(someNumber)
+console.log(stringNumber)
+console.log(typeof stringNumber)
