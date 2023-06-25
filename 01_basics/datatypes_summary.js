@@ -28,3 +28,23 @@ const myFunc = function(){
 console.log(typeof bigNo);
 
 // Dynamically typed lang.
+
+
+
+/**********************/
+
+// Stack Memory(Primitive), Heap(Non-Primitive)
+let myname = "khushigarg"
+let anothername = myname
+anothername = "khushi"
+
+let user = {
+    email:"k@",
+    upi:"61276"
+}
+
+let user1 = user
+user1.email = "g@"
+
+console.log(user.email)
+console.log(user1.email)
